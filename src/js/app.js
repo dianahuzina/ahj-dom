@@ -11,3 +11,10 @@ document.addEventListener("DOMContentLoaded", () => {
     character.addCharacter();
   }, 2000);
 });
+
+const unusedVariable = "variable";
+
+// for demonstration purpose only
+export default function demo(value) {
+  return `Demo: ${value}`;
+}
