@@ -1,6 +1,5 @@
 export default class Character {
   constructor(element) {
-    // field
     this.element = element;
   }
 
@@ -23,7 +22,7 @@ export default class Character {
       if (cell.dataset.id === number.toString()) {
         cell.classList.add("cell-active");
         image.classList.add("character");
-        image.src = "img/goblin.png";
+        image.src = "./img/goblin.png";
         cell.appendChild(image);
       }
     }

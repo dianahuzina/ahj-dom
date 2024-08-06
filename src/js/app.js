@@ -1,4 +1,4 @@
-import Character from "../js/character.js";
+import Character from "./character.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   const field = document.querySelector(".field");
